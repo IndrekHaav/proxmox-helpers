@@ -40,3 +40,5 @@ Usage:
  2. Make it executable: `chmod +x lxc-setup.sh`
  3. Edit the script and put the tasks you want to be executed inside the container, into the `setup ()` function at the top of the script.
  4. Call the script with `./lxc-setup.sh XYZ` (replacing XYZ with the numeric ID of the container).
+
+Any output from the setup tasks is logged to `/root/setup.log` inside the container.
