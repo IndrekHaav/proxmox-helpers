@@ -29,3 +29,14 @@ List of possible events:
 There's no need to create scripts for all events, backup-hook.sh will only execute the ones that actually exist.
 
 Note: This script isn't suited for backup-related tasks that need to be performed *outside* the container, e.g. copying the backup file to an off-site server.
+
+### lxc-setup.sh
+
+This is a boilerplate script for automating setup tasks in new LXC containers (installing packages, making configuration changes and so on). When run on a Proxmox host, it copies itself into the specified container, executes itself there and then removes itself. Inside the container, it executes whatever instructions are put in the `setup ()` function.
+
+Usage:
+
+ 1. Download the script somewhere on your Proxmox server.
+ 2. Make it executable: `chmod +x lxc-setup.sh`
+ 3. Edit the script and put the tasks you want to be executed inside the container, into the `setup ()` function at the top of the script.
+ 4. Call the script with `./lxc-setup.sh XYZ` (replacing XYZ with the numeric ID of the container).
