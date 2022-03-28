@@ -1,3 +1,5 @@
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/proxmox-helpers/lint?label=lint)](https://github.com/IndrekHaav/proxmox-helpers/actions/workflows/lint.yml)
+
 ## Proxmox helper scripts
 
 This repo contains some Proxmox helper scripts
