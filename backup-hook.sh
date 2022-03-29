@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Author: Indrek Haav
+# Source: https://github.com/IndrekHaav/proxmox-helpers
 
 if [ "$VMTYPE" == "lxc" ]; then
     echo "Running $1 script in guest $3 (if it exists)"

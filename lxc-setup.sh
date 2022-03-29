@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Author: Indrek Haav
+# Source: https://github.com/IndrekHaav/proxmox-helpers
 
 set -e
 
