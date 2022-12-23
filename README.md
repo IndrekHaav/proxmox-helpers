@@ -1,4 +1,4 @@
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/proxmox-helpers/lint?label=lint)](https://github.com/IndrekHaav/proxmox-helpers/actions/workflows/lint.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IndrekHaav/proxmox-helpers/lint.yml?branch=main&label=lint)](https://github.com/IndrekHaav/proxmox-helpers/actions/workflows/lint.yml)
 
 ## Proxmox helper scripts
 
